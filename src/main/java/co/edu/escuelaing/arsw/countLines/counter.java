@@ -9,7 +9,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class counter {
-    public static int countlines(String, filePath, String linetype){
+    public static void main(String[] args){
+        System.out.println(countlines(args[1],args[0]));
+    }
+    public static int countlines(String filePath, String linetype){
         Path file = Paths.get(filePath);
         int numberofLines = 0;
 
