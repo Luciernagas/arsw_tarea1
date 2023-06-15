@@ -34,6 +34,7 @@ pruebas:
 
 ## Diagrama de clase
 ![image](https://github.com/Luciernagas/arsw_tarea1/assets/104604359/9697b731-5a00-43ac-af42-6ea044ec49fb)
+
 Se puede observar que solo se tienen dos clases, la clase principal la cual es countlines la cual tiene un método main, el cual es el que hace que la aplicacion se pueda ejecutar, tambien tenemos la clase counter la cual tiene dos métodos, el primero es countlines el cual lee el archivo teniendo en cuenta la validacion y realiza el conteo de lineas, la segunda es confirmlines el cual confirma si la linea es vacia o un comentario.
 
 En el diagrama se tiene una relación 1 a 1, esto nos indica que se relaciona directamente con una y solo una instancia de otra clase.
